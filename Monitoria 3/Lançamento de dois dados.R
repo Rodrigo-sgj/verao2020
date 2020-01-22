@@ -10,8 +10,8 @@
 
 # Experimento aleatório: Lançamento de dois dados
 
-dado1 <- sample(1:6, size = 100000, replace = TRUE)
-dado2 <- sample(1:6, size = 100000, replace = TRUE)
+dado1 <- sample(1:6, size = 100, replace = TRUE)
+dado2 <- sample(1:6, size = 100, replace = TRUE)
 
 barplot(prop.table(table(dado1)), xlab = "Lançamento do dado 1",
         ylab = "Proporção",
